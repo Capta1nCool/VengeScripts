@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
                                 let searchbar = document.createElement('div')
                                 searchbar.id = 'invsearch'
                                 searchbar.innerHTML = `<input type="text" id="invsearchinput" placeholder="SearchSkin" style="
-                                    position: relative;
-                                    left: 17rem;
+                                    position: absolute;
+                                    left: 17.25rem;
                                     padding: 0.7rem;
                                     border-radius: 10px;
                                     color: white;
